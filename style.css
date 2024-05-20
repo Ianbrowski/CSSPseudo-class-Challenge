@@ -66,6 +66,10 @@ button {
   border: none;
   border-radius: 0.3em;
 }
+input:hover{
+  border:0.5px solid black;
+  color:darkgreen;
+}
 button {
   background-color: black;
   margin-top: 1em;
@@ -94,7 +98,8 @@ a {
 a:hover {
   color: black; 
   text-decoration: underline;
-  transition: all 0.5s ease-in-out; 
+  transition: all 0.5s ease-in-out;
+  font-weight:900;
 }
 
 @media (max-width: 768px){
